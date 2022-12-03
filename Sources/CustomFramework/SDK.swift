@@ -7,7 +7,7 @@
 
 import Foundation
 public struct SDK {
-    static func sayHello() {
+  public static func sayHello() {
         debugPrint("Hello from SDK!")
     }
 }
