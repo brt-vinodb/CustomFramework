@@ -15,6 +15,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CustomFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDK",
         "printedName": "SDK",
@@ -33,6 +40,33 @@
             "declKind": "Func",
             "usr": "s:15CustomFramework3SDKV8sayHelloyyFZ",
             "mangledName": "$s15CustomFramework3SDKV8sayHelloyyFZ",
+            "moduleName": "CustomFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showWebContent",
+            "printedName": "showWebContent(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework3SDKV14showWebContent14viewControllerySo06UIViewH0C_tFZ",
+            "mangledName": "$s15CustomFramework3SDKV14showWebContent14viewControllerySo06UIViewH0C_tFZ",
             "moduleName": "CustomFramework",
             "static": true,
             "declAttributes": [

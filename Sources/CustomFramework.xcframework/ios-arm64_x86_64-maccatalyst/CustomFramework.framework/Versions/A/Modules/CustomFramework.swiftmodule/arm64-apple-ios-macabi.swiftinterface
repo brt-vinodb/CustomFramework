@@ -5,7 +5,9 @@
 @_exported import CustomFramework
 import Foundation
 import Swift
+import UIKit
 import _Concurrency
 public struct SDK {
   public static func sayHello()
+  public static func showWebContent(viewController: UIKit.UIViewController)
 }
