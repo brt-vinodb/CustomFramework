@@ -42934,22 +42934,22 @@
       "filePath": "\/Users\/tejasdubal\/Documents\/CustomFrameWork - 03:12:2022\/CustomBuildFramework\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 1280,
-      "length": 2,
-      "value": "\"\""
+      "length": 35,
+      "value": "\"https:\/\/applystage.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/CustomFrameWork - 03:12:2022\/CustomBuildFramework\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1319,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1361,
+      "length": 17,
+      "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/CustomFrameWork - 03:12:2022\/CustomBuildFramework\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1319,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1361,
+      "length": 17,
+      "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/CustomFrameWork - 03:12:2022\/CustomBuildFramework\/CustomFramework\/CustomFramework\/CryptoSwift\/String+Extension.swift",
