@@ -1885,7 +1885,7 @@ public protocol Cryptor {
 }
 public struct SDK {
   public static func sayHello()
-  public static func configure(viewController: UIKit.UIViewController, json: Swift.Encodable, secretKey: Swift.String, partnerClientId: Swift.String)
+  public static func configure(viewController: UIKit.UIViewController, object: [Swift.String : Any], secretKey: Swift.String, partnerClientId: Swift.String)
 }
 extension CustomFramework.CS.BigUInt {
   public static func + (a: CustomFramework.CS.BigUInt, b: CustomFramework.CS.BigUInt) -> CustomFramework.CS.BigUInt

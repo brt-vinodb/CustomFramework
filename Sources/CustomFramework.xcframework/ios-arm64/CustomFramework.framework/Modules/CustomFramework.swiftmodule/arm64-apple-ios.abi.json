@@ -29032,7 +29032,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(viewController:json:secretKey:partnerClientId:)",
+            "printedName": "configure(viewController:object:secretKey:partnerClientId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29047,9 +29047,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Encodable",
-                "printedName": "Swift.Encodable",
-                "usr": "s:SE"
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
               },
               {
                 "kind": "TypeNominal",
@@ -29065,8 +29078,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15CustomFramework3SDKV9configure14viewController4json9secretKey15partnerClientIdySo06UIViewF0C_SE_pS2StFZ",
-            "mangledName": "$s15CustomFramework3SDKV9configure14viewController4json9secretKey15partnerClientIdySo06UIViewF0C_SE_pS2StFZ",
+            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientIdySo06UIViewF0C_SDySSypGS2StFZ",
+            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientIdySo06UIViewF0C_SDySSypGS2StFZ",
             "moduleName": "CustomFramework",
             "static": true,
             "declAttributes": [
