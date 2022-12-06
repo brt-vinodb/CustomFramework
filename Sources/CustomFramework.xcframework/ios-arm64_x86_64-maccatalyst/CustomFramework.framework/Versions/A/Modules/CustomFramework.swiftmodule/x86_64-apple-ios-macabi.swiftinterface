@@ -2,12 +2,17 @@
 // swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target x86_64-apple-ios15.4-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CustomFramework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
+import CryptoSwift
 @_exported import CustomFramework
 import Foundation
 import Swift
 import UIKit
 import _Concurrency
+extension Foundation.Data {
+  public func sha256String() -> Swift.String
+}
 public struct SDK {
   public static func sayHello()
-  public static func showWebContent(viewController: UIKit.UIViewController)
+  public static func configure(viewController: UIKit.UIViewController, json: Swift.Encodable, secretKey: Swift.String, partnerClientId: Swift.String)
 }
