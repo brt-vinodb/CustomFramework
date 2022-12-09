@@ -1973,7 +1973,7 @@ extension CustomFramework.Rabbit {
   convenience public init(key: Swift.String, iv: Swift.String) throws
 }
 public struct SDK {
-  public static func sayHello()
+  public static func crash()
   public static func configure(viewController: UIKit.UIViewController, object: [Swift.String : Any], secretKey: Swift.String, partnerClientId: Swift.String)
 }
 extension CustomFramework.CS.BigUInt {

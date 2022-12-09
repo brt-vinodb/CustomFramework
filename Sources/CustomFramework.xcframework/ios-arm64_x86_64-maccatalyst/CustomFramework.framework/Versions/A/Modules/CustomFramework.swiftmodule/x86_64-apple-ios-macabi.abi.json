@@ -35084,8 +35084,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "sayHello",
-            "printedName": "sayHello()",
+            "name": "crash",
+            "printedName": "crash()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -35094,8 +35094,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15CustomFramework3SDKV8sayHelloyyFZ",
-            "mangledName": "$s15CustomFramework3SDKV8sayHelloyyFZ",
+            "usr": "s:15CustomFramework3SDKV5crashyyFZ",
+            "mangledName": "$s15CustomFramework3SDKV5crashyyFZ",
             "moduleName": "CustomFramework",
             "static": true,
             "declAttributes": [
