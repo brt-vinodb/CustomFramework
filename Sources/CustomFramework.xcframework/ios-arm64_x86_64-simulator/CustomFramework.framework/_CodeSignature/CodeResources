@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RoeCgbx8erCOk0OMBqMG84IVva4=
+		meu6d+hPctAle3+QLCxX5m01MUs=
 		</data>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/CustomFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RoeCgbx8erCOk0OMBqMG84IVva4=
+		meu6d+hPctAle3+QLCxX5m01MUs=
 		</data>
 		<key>Modules/CustomFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cSOYr28oOj+UHd7cpOxipxA//VYdHNA1UURxnGD59SM=
+			pmQPtcg2VsGHdxL8XOWULSONqMiOwgr1MJbdMPLjSYE=
 			</data>
 		</dict>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cSOYr28oOj+UHd7cpOxipxA//VYdHNA1UURxnGD59SM=
+			pmQPtcg2VsGHdxL8XOWULSONqMiOwgr1MJbdMPLjSYE=
 			</data>
 		</dict>
 		<key>Modules/CustomFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
