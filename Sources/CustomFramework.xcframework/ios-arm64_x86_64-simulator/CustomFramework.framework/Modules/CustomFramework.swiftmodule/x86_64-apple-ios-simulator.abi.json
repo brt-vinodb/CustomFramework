@@ -35078,6 +35078,13 @@
         "moduleName": "CustomFramework"
       },
       {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "CustomFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDK",
         "printedName": "SDK",
@@ -35106,7 +35113,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(viewController:object:secretKey:partnerClientId:)",
+            "printedName": "configure(viewController:object:secretKey:partnerClientId:test:errorCallBack:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -35149,11 +35156,35 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientIdySo06UIViewF0C_SDySSypGS2StFZ",
-            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientIdySo06UIViewF0C_SDySSypGS2StFZ",
+            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId4test13errorCallBackySo06UIViewF0C_SDySSypGS2SSbySSctFZ",
+            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId4test13errorCallBackySo06UIViewF0C_SDySSypGS2SSbySSctFZ",
             "moduleName": "CustomFramework",
             "static": true,
             "declAttributes": [
@@ -41211,21 +41242,21 @@
     {
       "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 3996,
+      "offset": 10120,
       "length": 35,
       "value": "\"https:\/\/applystage.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4077,
+      "offset": 10201,
       "length": 17,
       "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 4077,
+      "offset": 10201,
       "length": 17,
       "value": "\"\/create_booking\""
     },

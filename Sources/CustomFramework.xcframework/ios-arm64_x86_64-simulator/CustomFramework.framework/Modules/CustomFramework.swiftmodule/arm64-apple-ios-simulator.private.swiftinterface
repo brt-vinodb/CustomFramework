@@ -6,6 +6,7 @@ import CommonCrypto
 @_exported import CustomFramework
 import Darwin
 import Foundation
+import SafariServices
 import Swift
 import UIKit
 import _Concurrency
@@ -1974,7 +1975,7 @@ extension CustomFramework.Rabbit {
 }
 public struct SDK {
   public static func crash()
-  public static func configure(viewController: UIKit.UIViewController, object: [Swift.String : Any], secretKey: Swift.String, partnerClientId: Swift.String)
+  public static func configure(viewController: UIKit.UIViewController, object: [Swift.String : Any], secretKey: Swift.String, partnerClientId: Swift.String, test: Swift.Bool, errorCallBack: @escaping ((Swift.String) -> Swift.Void))
 }
 extension CustomFramework.CS.BigUInt {
   public static func + (a: CustomFramework.CS.BigUInt, b: CustomFramework.CS.BigUInt) -> CustomFramework.CS.BigUInt
