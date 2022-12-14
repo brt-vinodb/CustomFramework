@@ -35113,7 +35113,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(viewController:object:secretKey:partnerClientId:test:errorCallBack:)",
+            "printedName": "configure(viewController:object:secretKey:partnerClientId:errorCallBack:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -35158,12 +35158,6 @@
                 "usr": "s:SS"
               },
               {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Swift.String) -> ()",
@@ -35183,8 +35177,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId4test13errorCallBackySo06UIViewF0C_SDySSypGS2SSbySSctFZ",
-            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId4test13errorCallBackySo06UIViewF0C_SDySSypGS2SSbySSctFZ",
+            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
+            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
             "moduleName": "CustomFramework",
             "static": true,
             "declAttributes": [
@@ -41235,21 +41229,21 @@
     {
       "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 10950,
+      "offset": 10948,
       "length": 37,
       "value": "\"https:\/\/applystagev1.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11033,
+      "offset": 11031,
       "length": 17,
       "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11033,
+      "offset": 11031,
       "length": 17,
       "value": "\"\/create_booking\""
     },
@@ -44647,13 +44641,6 @@
       "offset": 4026,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/SDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1621,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/CryptoSwift\/CS_BigInt\/Addition.swift",

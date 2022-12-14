@@ -1975,7 +1975,7 @@ extension CustomFramework.Rabbit {
 }
 public struct SDK {
   public static func crash()
-  public static func configure(viewController: UIKit.UIViewController, object: [Swift.String : Any], secretKey: Swift.String, partnerClientId: Swift.String, test: Swift.Bool, errorCallBack: @escaping ((Swift.String) -> Swift.Void))
+  public static func configure(viewController: UIKit.UIViewController, object: [Swift.String : Any], secretKey: Swift.String, partnerClientId: Swift.String, errorCallBack: @escaping ((Swift.String) -> Swift.Void))
 }
 extension CustomFramework.CS.BigUInt {
   public static func + (a: CustomFramework.CS.BigUInt, b: CustomFramework.CS.BigUInt) -> CustomFramework.CS.BigUInt
