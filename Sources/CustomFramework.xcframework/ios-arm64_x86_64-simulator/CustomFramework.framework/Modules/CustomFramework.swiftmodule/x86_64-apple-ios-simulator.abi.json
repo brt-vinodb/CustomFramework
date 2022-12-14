@@ -44656,6 +44656,13 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1575,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/tejasdubal\/Desktop\/CustomFramework\/CustomFramework\/CryptoSwift\/CS_BigInt\/Addition.swift",
       "kind": "IntegerLiteral",
       "offset": 426,
