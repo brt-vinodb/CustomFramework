@@ -35128,22 +35128,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
+                "name": "ProtocolComposition",
+                "printedName": "Swift.Decodable & Swift.Encodable"
               },
               {
                 "kind": "TypeNominal",
@@ -35177,8 +35163,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
-            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
+            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_Se_SEpS2SySSctFZ",
+            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_Se_SEpS2SySSctFZ",
             "moduleName": "CustomFramework",
             "static": true,
             "declAttributes": [
