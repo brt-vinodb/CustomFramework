@@ -41237,20 +41237,20 @@
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
       "offset": 11015,
-      "length": 36,
-      "value": "\"https:\/\/applydevv1.sankash.in\/api\/\""
+      "length": 35,
+      "value": "\"https:\/\/applydevv1.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11098,
+      "offset": 11097,
       "length": 17,
       "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11098,
+      "offset": 11097,
       "length": 17,
       "value": "\"\/create_booking\""
     },
