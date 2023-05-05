@@ -35085,6 +35085,13 @@
         "moduleName": "CustomFramework"
       },
       {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CustomFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDK",
         "printedName": "SDK",
