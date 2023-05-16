@@ -41250,21 +41250,21 @@
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11302,
+      "offset": 11243,
       "length": 35,
       "value": "\"https:\/\/applydevv1.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11383,
+      "offset": 11324,
       "length": 17,
       "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11383,
+      "offset": 11324,
       "length": 17,
       "value": "\"\/create_booking\""
     },
