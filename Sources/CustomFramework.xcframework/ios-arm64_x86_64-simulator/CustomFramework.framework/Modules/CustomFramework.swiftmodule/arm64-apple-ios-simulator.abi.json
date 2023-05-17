@@ -3565,6 +3565,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "CFB",
         "printedName": "CFB",
@@ -7897,6 +7907,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "CustomFramework"
       },
       {
         "kind": "TypeDecl",
@@ -23795,6 +23812,23 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "CustomFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "HMAC",
         "printedName": "HMAC",
@@ -35092,13 +35126,6 @@
         "moduleName": "CustomFramework"
       },
       {
-        "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "CustomFramework"
-      },
-      {
         "kind": "TypeDecl",
         "name": "SDK",
         "printedName": "SDK",
@@ -35143,7 +35170,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
+                "printedName": "[Swift.String : Any?]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -35153,8 +35180,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "usr": "s:SD"
@@ -35191,8 +35226,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
-            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
+            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypSgGS2SySSctFZ",
+            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypSgGS2SySSctFZ",
             "moduleName": "CustomFramework",
             "static": true,
             "declAttributes": [
@@ -35594,6 +35629,16 @@
         "moduleName": "CustomFramework",
         "declAttributes": [
           "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -37905,6 +37950,13 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "URLConvertible",
+            "printedName": "URLConvertible",
+            "usr": "s:9Alamofire14URLConvertibleP",
+            "mangledName": "$s9Alamofire14URLConvertibleP"
           }
         ]
       },
@@ -39811,6 +39863,35 @@
             "printedName": "ContiguousBytes",
             "usr": "s:10Foundation15ContiguousBytesP",
             "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AlamofireExtended",
+            "printedName": "AlamofireExtended",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedType",
+                "printedName": "ExtendedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:9Alamofire0A8ExtendedP",
+            "mangledName": "$s9Alamofire0A8ExtendedP"
           }
         ]
       },
@@ -41059,6 +41140,62 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 13,
+      "value": "\"no_internet\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 24,
+      "value": "\"Internet Not Available\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 19,
+      "value": "\"Partner_client_id\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 27,
+      "value": "\"Invalid Partner Client Id\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 9,
+      "value": "\"payload\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 495,
+      "length": 17,
+      "value": "\"Invalid Payload\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 12,
+      "value": "\"secret_key\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 619,
+      "length": 20,
+      "value": "\"Invalid Secret Key\""
+    },
+    {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/CryptoSwift\/CS_BigInt\/Multiplication.swift",
       "kind": "IntegerLiteral",
       "offset": 1573,
@@ -41250,21 +41387,21 @@
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11243,
+      "offset": 11429,
       "length": 35,
       "value": "\"https:\/\/applydevv1.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11324,
+      "offset": 11510,
       "length": 17,
       "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework_build_2\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11324,
+      "offset": 11510,
       "length": 17,
       "value": "\"\/create_booking\""
     },
