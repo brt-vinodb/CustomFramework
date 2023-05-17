@@ -2,7 +2,6 @@
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CustomFramework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-import Alamofire
 import CommonCrypto
 @_exported import CustomFramework
 import Darwin
@@ -10,6 +9,7 @@ import Foundation
 import Network
 import SafariServices
 import Swift
+import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
@@ -275,6 +275,49 @@ public struct CCM {
   public static func encrypt(_ plainText: Swift.Array<Swift.UInt8>, key: Swift.Array<Swift.UInt8>, iv: Swift.Array<Swift.UInt8>, authenticationHeader: Swift.Array<Swift.UInt8>) throws -> (cipherText: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>)
   public static func decrypt(_ cipherText: Swift.Array<Swift.UInt8>, key: Swift.Array<Swift.UInt8>, iv: Swift.Array<Swift.UInt8>, authenticationHeader: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>) throws -> (plainText: Swift.Array<Swift.UInt8>, success: Swift.Bool)
   @objc deinit
+}
+@_hasMissingDesignatedInitializers open class NetworkReachabilityManager {
+  public enum NetworkReachabilityStatus {
+    case unknown
+    case notReachable
+    case reachable(CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType)
+    public enum ConnectionType {
+      case ethernetOrWiFi
+      case cellular
+      public static func == (a: CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType, b: CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> Swift.Bool
+      public func hash(into hasher: inout Swift.Hasher)
+      public var hashValue: Swift.Int {
+        get
+      }
+    }
+  }
+  public typealias Listener = (CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Void
+  public static let `default`: CustomFramework.NetworkReachabilityManager?
+  open var isReachable: Swift.Bool {
+    get
+  }
+  open var isReachableOnCellular: Swift.Bool {
+    get
+  }
+  open var isReachableOnEthernetOrWiFi: Swift.Bool {
+    get
+  }
+  final public let reachabilityQueue: Dispatch.DispatchQueue
+  open var flags: SystemConfiguration.SCNetworkReachabilityFlags? {
+    get
+  }
+  open var status: CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus {
+    get
+  }
+  convenience public init?(host: Swift.String)
+  convenience public init?()
+  @objc deinit
+  @discardableResult
+  open func startListening(onQueue queue: Dispatch.DispatchQueue = .main, onUpdatePerforming listener: @escaping CustomFramework.NetworkReachabilityManager.Listener) -> Swift.Bool
+  open func stopListening()
+}
+extension CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus : Swift.Equatable {
+  public static func == (a: CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus, b: CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Bool
 }
 extension CustomFramework.CS.BigUInt : Swift.Strideable {
   public typealias Stride = CustomFramework.CS.BigInt
@@ -2233,6 +2276,8 @@ extension CustomFramework.Poly1305.Error : Swift.Hashable {}
 extension CustomFramework.CCM : CustomFramework.BlockMode {}
 extension CustomFramework.CCM.Error : Swift.Equatable {}
 extension CustomFramework.CCM.Error : Swift.Hashable {}
+extension CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType : Swift.Equatable {}
+extension CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType : Swift.Hashable {}
 extension CustomFramework.ChaCha20.Error : Swift.Equatable {}
 extension CustomFramework.ChaCha20.Error : Swift.Hashable {}
 extension CustomFramework.SignatureError : Swift.Equatable {}

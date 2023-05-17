@@ -4245,10 +4245,918 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CustomFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "CustomFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkReachabilityManager",
+        "printedName": "NetworkReachabilityManager",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "NetworkReachabilityStatus",
+            "printedName": "NetworkReachabilityStatus",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "unknown",
+                "printedName": "unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.Type) -> CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReachabilityStatus",
+                        "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                        "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkReachabilityStatus",
+                            "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                            "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO7unknownyA2EmF",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO7unknownyA2EmF",
+                "moduleName": "CustomFramework",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "notReachable",
+                "printedName": "notReachable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.Type) -> CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReachabilityStatus",
+                        "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                        "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkReachabilityStatus",
+                            "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                            "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO12notReachableyA2EmF",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO12notReachableyA2EmF",
+                "moduleName": "CustomFramework",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "reachable",
+                "printedName": "reachable",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.Type) -> (CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) -> CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkReachabilityStatus",
+                            "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                            "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionType",
+                            "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                            "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NetworkReachabilityStatus",
+                            "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                            "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO9reachableyA2E14ConnectionTypeOcAEmF",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO9reachableyA2E14ConnectionTypeOcAEmF",
+                "moduleName": "CustomFramework",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "ConnectionType",
+                "printedName": "ConnectionType",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "ethernetOrWiFi",
+                    "printedName": "ethernetOrWiFi",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type) -> CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionType",
+                            "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                            "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ConnectionType",
+                                "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                                "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO14ethernetOrWiFiyA2GmF",
+                    "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO14ethernetOrWiFiyA2GmF",
+                    "moduleName": "CustomFramework",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "cellular",
+                    "printedName": "cellular",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type) -> CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConnectionType",
+                            "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                            "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ConnectionType",
+                                "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                                "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO8cellularyA2GmF",
+                    "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO8cellularyA2GmF",
+                    "moduleName": "CustomFramework",
+                    "declAttributes": [
+                      "RawDocComment"
+                    ]
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "==",
+                    "printedName": "==(_:_:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionType",
+                        "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                        "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionType",
+                        "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType",
+                        "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO2eeoiySbAG_AGtFZ",
+                    "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO2eeoiySbAG_AGtFZ",
+                    "moduleName": "CustomFramework",
+                    "static": true,
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "hashValue",
+                    "printedName": "hashValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO9hashValueSivp",
+                    "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO9hashValueSivp",
+                    "moduleName": "CustomFramework",
+                    "implicit": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO9hashValueSivg",
+                        "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO9hashValueSivg",
+                        "moduleName": "CustomFramework",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "hash",
+                    "printedName": "hash(into:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Hasher",
+                        "printedName": "Swift.Hasher",
+                        "paramValueOwnership": "InOut",
+                        "usr": "s:s6HasherV"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO4hash4intoys6HasherVz_tF",
+                    "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO4hash4intoys6HasherVz_tF",
+                    "moduleName": "CustomFramework",
+                    "implicit": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO14ConnectionTypeO",
+                "moduleName": "CustomFramework",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Equatable",
+                    "printedName": "Equatable",
+                    "usr": "s:SQ",
+                    "mangledName": "$sSQ"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Hashable",
+                    "printedName": "Hashable",
+                    "usr": "s:SH",
+                    "mangledName": "$sSH"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityStatus",
+                    "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityStatus",
+                    "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO2eeoiySbAE_AEtFZ",
+                "moduleName": "CustomFramework",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC0cD6StatusO",
+            "moduleName": "CustomFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CustomFramework.NetworkReachabilityManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityManager",
+                    "printedName": "CustomFramework.NetworkReachabilityManager",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC7defaultACSgvpZ",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC7defaultACSgvpZ",
+            "moduleName": "CustomFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CustomFramework.NetworkReachabilityManager?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkReachabilityManager",
+                        "printedName": "CustomFramework.NetworkReachabilityManager",
+                        "usr": "s:15CustomFramework26NetworkReachabilityManagerC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC7defaultACSgvgZ",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC7defaultACSgvgZ",
+                "moduleName": "CustomFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachable",
+            "printedName": "isReachable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC11isReachableSbvp",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC11isReachableSbvp",
+            "moduleName": "CustomFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC11isReachableSbvg",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC11isReachableSbvg",
+                "moduleName": "CustomFramework",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachableOnCellular",
+            "printedName": "isReachableOnCellular",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC21isReachableOnCellularSbvp",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC21isReachableOnCellularSbvp",
+            "moduleName": "CustomFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC21isReachableOnCellularSbvg",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC21isReachableOnCellularSbvg",
+                "moduleName": "CustomFramework",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReachableOnEthernetOrWiFi",
+            "printedName": "isReachableOnEthernetOrWiFi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvp",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvp",
+            "moduleName": "CustomFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvg",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC27isReachableOnEthernetOrWiFiSbvg",
+                "moduleName": "CustomFramework",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reachabilityQueue",
+            "printedName": "reachabilityQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvp",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvp",
+            "moduleName": "CustomFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvg",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC17reachabilityQueueSo17OS_dispatch_queueCvg",
+                "moduleName": "CustomFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flags",
+            "printedName": "flags",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SystemConfiguration.SCNetworkReachabilityFlags?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SCNetworkReachabilityFlags",
+                    "printedName": "SystemConfiguration.SCNetworkReachabilityFlags",
+                    "usr": "c:@E@SCNetworkReachabilityFlags"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC5flagsSo09SCNetworkD5FlagsVSgvp",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC5flagsSo09SCNetworkD5FlagsVSgvp",
+            "moduleName": "CustomFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SystemConfiguration.SCNetworkReachabilityFlags?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SCNetworkReachabilityFlags",
+                        "printedName": "SystemConfiguration.SCNetworkReachabilityFlags",
+                        "usr": "c:@E@SCNetworkReachabilityFlags"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC5flagsSo09SCNetworkD5FlagsVSgvg",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC5flagsSo09SCNetworkD5FlagsVSgvg",
+                "moduleName": "CustomFramework",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkReachabilityStatus",
+                "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC6statusAC0cD6StatusOvp",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC6statusAC0cD6StatusOvp",
+            "moduleName": "CustomFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityStatus",
+                    "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15CustomFramework26NetworkReachabilityManagerC6statusAC0cD6StatusOvg",
+                "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC6statusAC0cD6StatusOvg",
+                "moduleName": "CustomFramework",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(host:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CustomFramework.NetworkReachabilityManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityManager",
+                    "printedName": "CustomFramework.NetworkReachabilityManager",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC4hostACSgSS_tcfc",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC4hostACSgSS_tcfc",
+            "moduleName": "CustomFramework",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CustomFramework.NetworkReachabilityManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityManager",
+                    "printedName": "CustomFramework.NetworkReachabilityManager",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerCACSgycfc",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerCACSgycfc",
+            "moduleName": "CustomFramework",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "startListening",
+            "printedName": "startListening(onQueue:onUpdatePerforming:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkReachabilityStatus",
+                    "printedName": "CustomFramework.NetworkReachabilityManager.NetworkReachabilityStatus",
+                    "usr": "s:15CustomFramework26NetworkReachabilityManagerC0cD6StatusO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC14startListening7onQueue0H16UpdatePerformingSbSo17OS_dispatch_queueC_yAC0cD6StatusOctF",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC14startListening7onQueue0H16UpdatePerformingSbSo17OS_dispatch_queueC_yAC0cD6StatusOctF",
+            "moduleName": "CustomFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopListening",
+            "printedName": "stopListening()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework26NetworkReachabilityManagerC13stopListeningyyF",
+            "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC13stopListeningyyF",
+            "moduleName": "CustomFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15CustomFramework26NetworkReachabilityManagerC",
+        "mangledName": "$s15CustomFramework26NetworkReachabilityManagerC",
+        "moduleName": "CustomFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "TypeDecl",
@@ -37539,35 +38447,6 @@
             "printedName": "ContiguousBytes",
             "usr": "s:10Foundation15ContiguousBytesP",
             "mangledName": "$s10Foundation15ContiguousBytesP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "AlamofireExtended",
-            "printedName": "AlamofireExtended",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ExtendedType",
-                "printedName": "ExtendedType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[τ_0_0]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GenericTypeParam",
-                        "printedName": "τ_0_0"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:9Alamofire0A8ExtendedP",
-            "mangledName": "$s9Alamofire0A8ExtendedP"
           }
         ]
       },
@@ -39959,13 +40838,6 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "URLConvertible",
-            "printedName": "URLConvertible",
-            "usr": "s:9Alamofire14URLConvertibleP",
-            "mangledName": "$s9Alamofire14URLConvertibleP"
           }
         ]
       },
@@ -41375,6 +42247,20 @@
       "offset": 1165,
       "length": 2,
       "value": "12"
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 3087,
+      "length": 33,
+      "value": "\"org.alamofire.reachabilityQueue\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 5859,
+      "length": 58,
+      "value": "\"com.example.NetworkReachabilityManager.mutableStateQueue\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/CryptoSwift\/ChaCha20.swift",
