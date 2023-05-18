@@ -30630,6 +30630,13 @@
         "moduleName": "CustomFramework"
       },
       {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "CustomFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDK",
         "printedName": "SDK",
@@ -30658,7 +30665,7 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(viewController:object:secretKey:partnerClientId:errorCallBack:)",
+            "printedName": "configure(viewController:payload:secretKey:partnerClientId:errorCallBack:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30722,8 +30729,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
-            "mangledName": "$s15CustomFramework3SDKV9configure14viewController6object9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
+            "usr": "s:15CustomFramework3SDKV9configure14viewController7payload9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
+            "mangledName": "$s15CustomFramework3SDKV9configure14viewController7payload9secretKey15partnerClientId13errorCallBackySo06UIViewF0C_SDySSypGS2SySSctFZ",
             "moduleName": "CustomFramework",
             "static": true,
             "declAttributes": [
@@ -43877,21 +43884,21 @@
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11428,
+      "offset": 11439,
       "length": 35,
       "value": "\"https:\/\/applydevv1.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11509,
+      "offset": 11520,
       "length": 17,
       "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11509,
+      "offset": 11520,
       "length": 17,
       "value": "\"\/create_booking\""
     },

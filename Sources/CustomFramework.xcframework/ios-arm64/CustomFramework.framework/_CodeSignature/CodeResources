@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		QV8bibSLdUfPW82GlLXOrjpG4S0=
+		OHulpPgwz9t7CTxHLzkbbPOFQ4c=
 		</data>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ZsS6MQ3DnmFxqVmC003YVyYQge0=
+		PPVucIkrJ3VEOr4JW4w48FFodEQ=
 		</data>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZsS6MQ3DnmFxqVmC003YVyYQge0=
+		PPVucIkrJ3VEOr4JW4w48FFodEQ=
 		</data>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3Vx6EG9syvALhIek5dPxu6vxFbY=
+		eJMCjnrowX+YGeaB+6YaUGJ26xA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yBMx5oK3kBKEqhaAoB/jGW2ZgUI4TfUVBW8PBgTcJa0=
+			/XJmLW+ArR3zBuEkoqtElya9h0oQO9QYjP2hx7my9PI=
 			</data>
 		</dict>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cwfjpeUR43FcGBk/AFjkRySwYEF936W1ANiXzIS0TRw=
+			zrkjpNE/7YtefxvmpJzneULt7jWEbSzEwakWUaKex5s=
 			</data>
 		</dict>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cwfjpeUR43FcGBk/AFjkRySwYEF936W1ANiXzIS0TRw=
+			zrkjpNE/7YtefxvmpJzneULt7jWEbSzEwakWUaKex5s=
 			</data>
 		</dict>
 		<key>Modules/CustomFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1FhrHuT3lPafzOy6nAfTmL1nqOcin6dCLQTMz9z6btk=
+			OGmSocdu31mywDDT9dCuSrJoGpjaxQs+FUhr4bc+A0U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

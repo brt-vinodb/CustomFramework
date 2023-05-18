@@ -1799,7 +1799,7 @@ extension CustomFramework.Updatable {
 }
 public struct SDK {
   public static func crash()
-  public static func configure(viewController: UIKit.UIViewController, object: [Swift.String : Any], secretKey: Swift.String, partnerClientId: Swift.String, errorCallBack: @escaping ((Swift.String) -> Swift.Void))
+  public static func configure(viewController: UIKit.UIViewController, payload: [Swift.String : Any], secretKey: Swift.String, partnerClientId: Swift.String, errorCallBack: @escaping ((Swift.String) -> Swift.Void))
 }
 extension CustomFramework.PKCS5 {
   public struct PBKDF1 {
