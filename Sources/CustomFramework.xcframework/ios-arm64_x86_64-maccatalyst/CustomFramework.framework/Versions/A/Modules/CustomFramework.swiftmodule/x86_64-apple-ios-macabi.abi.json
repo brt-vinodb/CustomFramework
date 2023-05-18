@@ -41274,43 +41274,57 @@
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/Errors.swift",
       "kind": "StringLiteral",
       "offset": 163,
-      "length": 2,
-      "value": "\"\""
+      "length": 9,
+      "value": "\"payload\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 209,
-      "length": 2,
-      "value": "\"\""
+      "offset": 216,
+      "length": 17,
+      "value": "\"Invalid Payload\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 260,
+      "offset": 282,
       "length": 12,
       "value": "\"secret_key\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 340,
       "length": 20,
       "value": "\"Invalid Secret Key\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 385,
+      "offset": 407,
       "length": 13,
       "value": "\"no_internet\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 442,
+      "offset": 464,
       "length": 24,
       "value": "\"Internet Not Available\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 543,
+      "length": 19,
+      "value": "\"partner_client_id\""
+    },
+    {
+      "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/Errors.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 27,
+      "value": "\"Invalid Partner Client Id\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/CryptoSwift\/AEAD\/AEADChaCha20Poly1305.swift",
@@ -43863,21 +43877,21 @@
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11284,
-      "length": 35,
-      "value": "\"https:\/\/applydevv1.sankash.in\/api\""
+      "offset": 11366,
+      "length": 37,
+      "value": "\"https:\/\/applystagev1.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11365,
+      "offset": 11509,
       "length": 17,
       "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11365,
+      "offset": 11509,
       "length": 17,
       "value": "\"\/create_booking\""
     },
