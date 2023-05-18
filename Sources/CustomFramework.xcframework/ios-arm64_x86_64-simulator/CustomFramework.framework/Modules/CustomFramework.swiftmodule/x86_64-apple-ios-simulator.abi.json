@@ -43877,9 +43877,9 @@
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11366,
-      "length": 37,
-      "value": "\"https:\/\/applystagev1.sankash.in\/api\""
+      "offset": 11428,
+      "length": 35,
+      "value": "\"https:\/\/applydevv1.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
