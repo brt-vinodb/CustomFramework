@@ -30686,27 +30686,6 @@
           },
           {
             "kind": "Function",
-            "name": "crash",
-            "printedName": "crash()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15CustomFramework3SDKV5crashyyFZ",
-            "mangledName": "$s15CustomFramework3SDKV5crashyyFZ",
-            "moduleName": "CustomFramework",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "configure",
             "printedName": "configure(viewController:payload:secretKey:partnerClientId:errorCallBack:)",
             "children": [
@@ -30777,7 +30756,8 @@
             "moduleName": "CustomFramework",
             "static": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -43927,21 +43907,21 @@
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11439,
+      "offset": 11568,
       "length": 35,
       "value": "\"https:\/\/applydevv1.sankash.in\/api\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11520,
+      "offset": 11649,
       "length": 17,
       "value": "\"\/create_booking\""
     },
     {
       "filePath": "\/Users\/tejasdubal\/Documents\/SanKash\/FrameWork\/CustomFramework\/CustomFramework\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 11520,
+      "offset": 11649,
       "length": 17,
       "value": "\"\/create_booking\""
     },
