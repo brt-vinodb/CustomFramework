@@ -1798,9 +1798,9 @@ extension CustomFramework.Updatable {
   }
 }
 public struct SDK {
+  public static func decrypt(cipherText: Swift.String, secretKey: Swift.String) -> Swift.String?
   public static func crash()
   public static func configure(viewController: UIKit.UIViewController, payload: [Swift.String : Any], secretKey: Swift.String, partnerClientId: Swift.String, errorCallBack: @escaping ((Swift.String) -> Swift.Void))
-  public static func decrypt(cipherText: Swift.String, secretKey: Swift.String) -> Swift.String?
 }
 extension CustomFramework.PKCS5 {
   public struct PBKDF1 {
